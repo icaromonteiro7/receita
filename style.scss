@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+section div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+section img{
+    height: 400px;
+}
+
+.mode{
+    display: block;
+    margin-top: 100px;
+    width: 50%;
+    text-align: justify;
+    padding: 0px 5%;
+}
+
+p{
+    margin-top: 20px;
+}
